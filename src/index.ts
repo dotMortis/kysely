@@ -55,7 +55,6 @@ export * from './schema/alter-table-builder.js'
 export * from './schema/create-view-builder.js'
 export * from './schema/drop-view-builder.js'
 export * from './schema/alter-column-builder.js'
-
 export * from './dynamic/dynamic.js'
 
 export * from './driver/driver.js'
@@ -276,3 +275,5 @@ export {
   OperandExpression,
   ExpressionOrFactory,
 } from './parser/expression-parser.js'
+export * from './util/type-utils.js'
+export * from './util/type-error.js'

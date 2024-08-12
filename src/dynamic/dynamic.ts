@@ -1,3 +1,4 @@
+export { DynamicReferenceBuilder } from './dynamic-reference-builder.js';
 import { DynamicReferenceBuilder } from './dynamic-reference-builder.js'
 
 export class DynamicModule {
